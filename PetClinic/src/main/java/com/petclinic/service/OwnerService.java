@@ -9,5 +9,6 @@ public interface OwnerService {
 	
 	Set<Owner> findAll();
 	Owner findById(Long id);
+	void save(Owner own);
 
 }

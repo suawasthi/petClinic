@@ -9,5 +9,6 @@ public interface PetService {
 
 	Set<Pet> findAll();
 	Pet findByID(Long id);
+	void save(Pet pet);
 	
 }
