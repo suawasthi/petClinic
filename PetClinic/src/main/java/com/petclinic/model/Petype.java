@@ -1,6 +1,6 @@
 package com.petclinic.model;
 
-public class Petype {
+public class Petype extends BaseEntity {
 	String name;
 
 	public String getName() {
